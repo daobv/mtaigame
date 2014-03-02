@@ -1,0 +1,319 @@
+body {
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin: 0;
+}
+
+h2, h1, h3, h4 {
+    font-size: small;
+    margin: 0;
+    font-weight: normal;
+    display: inline;
+}
+
+.noidung img {
+    max-width: 150px;
+}
+
+.t {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-bottom: 1px solid #dfdfdf;
+    background-color: #fff;
+}
+
+.phpdr {
+    background-color: #d5dfe5;
+    padding: 4px;
+    color: #333 !important;
+}
+
+.currentpage {
+    background-color: #edebeb;
+    border: 1px solid #cccccc;
+    padding: 0px 5px 0px 5px;
+}
+
+img {
+    border: 0;
+}
+
+a.pagenav {
+    border: 1px solid #c0c0d5;
+    padding: 0px 3px 0px 3px;
+    text-decoration: none;
+}
+
+a.pagenav:hover {
+    background-color: #f7f7f7;
+    border: 1px solid #dedede;
+}
+
+.topmenu {
+    background-color: #D0D7DD;
+    border: 1px solid white;
+    margin: 0px;
+    padding: 2px 4px 4px 4px;
+}
+
+a {
+    color: #15c;
+    text-decoration: none;
+}
+
+form {
+    margin: 0;
+}
+
+input, textarea {
+    border: 1px solid #ccc;
+    padding: 3px;
+}
+
+.preamble {
+    background-color: #fff;
+    padding: 2px;
+}
+
+.preambleIcon {
+    display: block;
+    width: 19px;
+    height: 19px;
+    border: 1px solid #cfcfcf;
+    border-radius: 3px;
+    background-color: #d6d6d6;
+}
+
+.actionBar {
+    background-color: #262626;
+    padding: 4px;
+    color: #fff;
+}
+
+.actionBarIcon {
+    display: block;
+    width: 19px;
+    height: 19px;
+    border: 1px solid #919191;
+    border-radius: 3px;
+    background-color: #262626;
+}
+
+.actionBar input {
+    background-color: #262626;
+    border: 1px solid #919191;
+    border-radius: 3px;
+    color: #fff;
+    margin: 0 1px;
+    padding: 1px 4px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.actionBar input.more {
+    background-image: url(//ssl.gstatic.com/ui/v1/icons/mail/beluga/menu-down-arrow.png);
+    background-repeat: no-repeat;
+    background-position: 95% 70%;
+    padding-right: 16px;
+}
+
+.blueButton {
+    display: block;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 4px;
+    background-color: #4c8efb;
+    border: 1px solid #36c;
+    border-radius: 3px;
+    white-space: nowrap;
+}
+
+.blackButton {
+    display: block;
+    float: left;
+    margin-right: 4px;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 4px;
+    background-color: #262626;
+    border: 1px solid #919191;
+    border-radius: 3px;
+    white-space: nowrap;
+}
+
+.blackButton img {
+    vertical-align: middle;
+}
+
+.preamble img, .actionBarIcon img {
+    display: block;
+}
+
+.postamble {
+    border-top: 1px solid #c0c0c0;
+    background-color: #ebebeb;
+    padding: 5px 0 12px;
+    font-size: x-small;
+}
+
+.postambleRow {
+    padding-top: 5px;
+}
+
+.menu {
+    background-color: #262626;
+}
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 4px 0px;
+}
+
+ul.menu li {
+    padding: 2px 10px;
+}
+
+ul.menu a {
+    color: #fff;
+}
+
+ul.menu .separator {
+    border-bottom: 1px solid #424242;
+    margin-bottom: 4px;
+}
+
+ul.menu input {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background-color: #262626;
+    color: #fff;
+}
+
+.notification {
+    padding: 5px;
+    background-color: #f7efa6;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.pagination {
+    padding: 5px;
+    text-align: center;
+}
+
+.email .pagination {
+    padding: 0;
+    margin-top: .5em;
+}
+
+.email, .contact, .attachment {
+    padding: 5px;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.email input {
+    border: 0;
+    padding: 0;
+    margin-right: 5px;
+}
+
+.unread {
+    font-weight: bold;
+}
+
+.read, .collapsed {
+    background-color: #f4f4f4;
+}
+
+.sender {
+    margin-bottom: .25em;
+}
+
+.recipients {
+    color: #aaa;
+    margin-bottom: .2em;
+}
+
+.attachments {
+    color: #aaa;
+}
+
+.conversationHeader, .messageHeader, .contactListHeader {
+    padding: 5px;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.contactListHeader {
+    font-weight: bold;
+}
+
+.fakeLinks {
+    color: #ccc;
+}
+
+.fakeLinks input {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    color: #15c;
+}
+
+.composeForm, .contactInfo, .searchContactsForm, .searchForm, .accountPickerForm {
+    padding: 5px;
+}
+
+.composeForm div {
+    margin-bottom: 8px;
+}
+
+.composeForm div.buttons {
+    margin-bottom: 0;
+}
+
+.contactList td {
+    padding: 5px;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.contactList img {
+    display: block;
+}
+
+input.blueSubmit {
+    background-color: #4c8efb;
+    border: 1px solid #36c;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: bold;
+}
+
+input.whiteSubmit {
+    background-color: #fff;
+    border: 1px solid #919191;
+    border-radius: 3px;
+    color: #000;
+    font-weight: bold;
+}
+
+.noMatches {
+    padding: 5px;
+    text-align: center;
+}
+
+.msgNums, .threadNums {
+    color: #c0c0c0;
+    text-align: right;
+    padding-right: 8px;
+}
